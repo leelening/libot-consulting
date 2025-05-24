@@ -1,13 +1,15 @@
 ---
-title: Jekyll Serif Theme
+title: Libot Consulting
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+description: 
+# intro_image: "images/illustrations/pointing.svg"
+# intro_image_absolute: true
+# intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Libot Consulting – for Robotics
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+With extensive experience in both academia and industry, we provide professional consulting services in the field of robotics. Our tailored solutions are designed to meet the unique challenges of your innovation goals.
+
+

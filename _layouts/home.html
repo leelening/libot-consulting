@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro">
+<div class="intro" style="margin-bottom: 0; padding-bottom: 0;">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -17,12 +17,17 @@ bodyClass: "page-home"
         <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <div style="transform: scale(0.8); transform-origin: top left; width: 100%; height: auto;">
+        <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=0cECqsmeZYJB9RMBXqH1elG8Y5Xf8H0qzAUcV5i2BNQ"></script>
+          </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-1 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
       {% for service in site.services limit: limit %}
