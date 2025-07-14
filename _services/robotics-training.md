@@ -80,7 +80,7 @@ Robotics platforms are powerful—but only when used effectively. Our training r
 
 Interested in scheduling a product training workshop or technical onboarding?
 
-📧 **libotconsulting@gmail.com**  
+📧 **info@libotconsulting.com**  
 🌐 [www.libotconsulting.com/contact](https://www.libotconsulting.com/contact)
 
 ---

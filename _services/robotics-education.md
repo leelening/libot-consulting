@@ -77,7 +77,7 @@ Robotics integrates science, technology, engineering, and mathematics into a sin
 
 Are you a parent, teacher, or school leader interested in launching a robotics program or bringing expert support to your existing one?
 
-📧 **libotconsulting@gmail.com**  
+📧 **info@libotconsulting.com**  
 🌐 [www.libotconsulting.com/contact](https://www.libotconsulting.com/contact)
 
 We’re here to help your students thrive—on and off the field.

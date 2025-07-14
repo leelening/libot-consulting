@@ -72,5 +72,5 @@ We are an official distributor and integrator of advanced robots—including qua
 
 Whether you're an educator, founder, or enterprise buyer—Libot Consulting can help you navigate the world of robotics with confidence.
 
-📧 **libotconsulting@gmail.com**  
+📧 **info@libotconsulting.com**  
 🌐 [www.libotconsulting.com/contact](https://www.libotconsulting.com/contact)

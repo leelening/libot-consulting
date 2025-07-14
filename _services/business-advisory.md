@@ -73,7 +73,7 @@ We support your business in bringing robotics solutions to market with confidenc
 
 Ready to take your robotics venture from concept to company?
 
-📧 **libotconsulting@gmail.com**  
+📧 **info@libotconsulting.com**  
 🌐 [www.libotconsulting.com/contact](https://www.libotconsulting.com/contact)
 
 Let’s build the future—together.

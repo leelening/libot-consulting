@@ -59,7 +59,7 @@ The Lynx is an all-terrain wheeled-legged robot combining speed and agility with
 
 Interested in purchasing Deep Robotics products through Libot Consulting? Ready to explore robotics integration for your organization?
 
-📧 **libotconsulting@gmail.com**  
+📧 **info@libotconsulting.com**  
 🌐 [www.libotconsulting.com/contact](https://www.libotconsulting.com/contact)
 
 ---
