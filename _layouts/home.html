@@ -30,7 +30,12 @@ bodyClass: "page-home"
   <div class="container pt-1 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
+      {% if page.url contains '/zh/' %}
+        {% assign services = site.services_zh %}
+      {% else %}
+        {% assign services = site.services %}
+      {% endif %}
+      {% for service in services limit: limit %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
@@ -45,18 +50,26 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+        {% if page.url contains '/zh/' %}
+          <a class="button button-primary" href="/zh/services/">查看全部服务</a>
+        {% else %}
+          <a class="button button-primary" href="/services/">View All Services</a>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
 
-{% if site.data.features %}
+{% if page.url contains '/zh/' %}
+  {% assign features = site.data.features_zh %}
+{% else %}
+  {% assign features = site.data.features %}
+{% endif %}
+{% if features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
+      {% for feature in features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.image %}
@@ -67,7 +80,6 @@ bodyClass: "page-home"
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </div>

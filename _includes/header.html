@@ -8,5 +8,14 @@
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}
+    <div class="lang-switcher" style="margin-left: 1em; display: inline-block;">
+      {% if page.url contains '/zh/' %}
+        <a href="{{ page.url | remove_first: '/zh' | relative_url }}">English</a> |
+        <a href="{{ page.url | relative_url }}">中文</a>
+      {% else %}
+        <a href="{{ page.url | relative_url }}">English</a> |
+        <a href="/zh{{ page.url | relative_url }}">中文</a>
+      {% endif %}
+    </div>
   </div>
 </div>

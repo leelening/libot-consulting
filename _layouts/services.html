@@ -20,7 +20,12 @@ bodyClass: "page-services"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for service in site.services %}
+    {% if page.url contains '/zh/' %}
+      {% assign services = site.services_zh %}
+    {% else %}
+      {% assign services = site.services %}
+    {% endif %}
+    {% for service in services %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">

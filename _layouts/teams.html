@@ -20,7 +20,11 @@ bodyClass: "page-teams"
 
 <div class="container pt-6 pb-6">
     <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% if page.url contains '/zh/' %}
+          {% assign promoted_teams = site.team_zh | where: "promoted", true | sort: "weight" %}
+        {% else %}
+          {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% endif %}
         {% for team in promoted_teams %}
         <div class="col-12 col-md-6 mb-2">
             <div class="team team-summary team-summary-large">
@@ -42,7 +46,11 @@ bodyClass: "page-teams"
         {% endfor %}
     </div>
     <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% if page.url contains '/zh/' %}
+          {% assign teams = site.team_zh | where: "promoted", empty | sort: "weight" %}
+        {% else %}
+          {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% endif %}
         {% for team in teams %}
         <div class="col-12 col-md-4 mb-3">
             <div class="team team-summary">

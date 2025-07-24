@@ -17,8 +17,17 @@ collections:
   services:
     output: true
     sort_by: weight
+    permalink: /services/:name/
   team:
     output: true
+    permalink: /team/:name/
+  services_zh:
+    output: true
+    sort_by: weight
+    permalink: /zh/services/:name/
+  team_zh:
+    output: true
+    permalink: /zh/team/:name/
 
 defaults:
   - scope:

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "响应式支持",
+    "description": "我们为技术、教育和销售咨询提供快速、专业的响应，让您无需等待。",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "深度与广度保障",
+    "description": "凭借机器人学博士和丰富行业经验，我们在机器人领域兼具战略洞察与技术深度。",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "全球机器人视野",
+    "description": "我们积极参与机器人社区和国际网络，助您把握全球趋势与机遇。",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+] 
